@@ -1,0 +1,27 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Local dataset archives and derived content
+datasets/raw/
+datasets/rejected/
+datasets/processed/
+datasets/tokenized/
+datasets/omnibrain_seed_corpus.jsonl
+datasets/packed_splits.json
+
+# Local intermediate training checkpoints
+checkpoints/ckpt_pt_tiny_cpu_step_*/
+checkpoints/ckpt_tiny_cpu_step_*/
+checkpoints/phase7/ckpt_stageA_*/
+checkpoints/phase7/ckpt_stageB_*/
+checkpoints/phase7/ckpt_stageC_*/

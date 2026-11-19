@@ -1,0 +1,6 @@
+{
+  "name": "OMNIBRAIN AI",
+  "description": "Universal intelligence platform and neural workspace",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

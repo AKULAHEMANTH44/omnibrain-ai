@@ -1,0 +1,4 @@
+Source: https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+Compilation License: ODC-By-1.0 covers HuggingFaceFW curation/annotations ONLY.
+Audit Finding [QUARANTINED]: Underlying scraped CommonCrawl web documents originate from arbitrary third-party web publishers whose individual copyrights, Terms of Service, and opt-outs are NOT cleared by ODC-By-1.0.
+Quality Finding: Sample contains residual web boilerplate ("Click here to download...", "Previous abstract Next abstract") and 2 emails / 2 phone numbers.

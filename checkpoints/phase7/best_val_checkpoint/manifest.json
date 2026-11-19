@@ -1,0 +1,61 @@
+{
+  "phase": "7",
+  "stage": "stageC",
+  "backend": "pytorch",
+  "softwareVersion": "OMNIBRAIN-PyTorch-0.5.2",
+  "pytorchVersion": "2.15.0+cpu",
+  "device": "cpu",
+  "reason": "best_val",
+  "savedAt": "2026-11-19T17:22:25Z",
+  "preset": "tiny_cpu",
+  "config": {
+    "name": "Tiny CPU Dev",
+    "vocabSize": 1024,
+    "dModel": 24,
+    "numLayers": 2,
+    "numHeads": 2,
+    "dFf": 48,
+    "maxSeqLen": 64,
+    "contextLength": 48,
+    "dropout": 0.0
+  },
+  "parameterCount": 61504,
+  "tokenizerVersion": "omnibrain-tok-v1.1.0",
+  "tokenizerChecksum": "8bca50838ead180ee93e6d84b685da62dba6a6500466e237570d5a8d0311b48f",
+  "specialTokens": {
+    "<pad>": 0,
+    "<unk>": 1,
+    "<bos>": 2,
+    "<eos>": 3
+  },
+  "manifestHash": "f080a58dbfad98c2",
+  "datasetVersion": "omnibrain-ds-v2.0.0",
+  "quarantineExcluded": [
+    "FineWeb-Edu",
+    "Tatoeba-Indic"
+  ],
+  "seed": 42,
+  "step": 1303,
+  "epoch": 0,
+  "cumulativeTokens": 2001408,
+  "seqCursor": 41696,
+  "bestValLoss": 3.1336,
+  "metrics": null,
+  "checkpointFile": "checkpoint.pt",
+  "checkpointSha256": "2ff48d47fbc275087fcf8109c309ec13384ed0d7049eb141d4e3628917e6aae6",
+  "checkpointSizeBytes": 786602,
+  "qualitativeSamples": [
+    {
+      "prompt": "Neural networks learn",
+      "completion": "Neural networks learn ante ante an the the th"
+    },
+    {
+      "prompt": "Science and mathematics",
+      "completion": "Science and mathematics the the an an the an th"
+    },
+    {
+      "prompt": "Computer programming algorithms",
+      "completion": "Computer programming algorithms an an an an an an an te"
+    }
+  ]
+}

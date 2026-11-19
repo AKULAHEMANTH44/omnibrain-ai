@@ -1,0 +1,86 @@
+{
+  "datasetVersion": "omnibrain-ds-v2.0.0",
+  "generatedAt": "2026-11-19T17:35:28.580Z",
+  "totalVerifiedDocuments": 4726,
+  "quarantinedDocuments": 1016,
+  "quarantinedTokens": 587155,
+  "totalIngestedBeforeQuarantine": 5742,
+  "rawTokenCount": 8429271,
+  "cleanedTokenCount": 7644197,
+  "duplicateCount": 57,
+  "nearDuplicateCount": 188,
+  "corruptedCount": 0,
+  "rejectedDocuments": 246,
+  "qualityBreakdown": {
+    "accepted": 5742,
+    "emptyOrInvalid": 0,
+    "corruptedEncoding": 0,
+    "tooShort": 0,
+    "tooLong": 0,
+    "exactDuplicate": 57,
+    "nearDuplicate": 188,
+    "excessiveRepetition": 1,
+    "lowInformation": 0
+  },
+  "languageDistribution": {
+    "English": 2878,
+    "Hindi": 297,
+    "Tamil": 298,
+    "Telugu": 300,
+    "Kannada": 299,
+    "Bengali": 301,
+    "Code": 353
+  },
+  "tokensPerLanguage": {
+    "English": 2631705,
+    "Hindi": 795089,
+    "Tamil": 729587,
+    "Telugu": 857181,
+    "Kannada": 820962,
+    "Bengali": 809859,
+    "Code": 999814
+  },
+  "domainDistribution": {
+    "english": 503,
+    "indian_languages": 1495,
+    "general_knowledge": 103,
+    "mathematics": 597,
+    "physics_chemistry": 367,
+    "biology": 431,
+    "computer_science": 379,
+    "programming": 571,
+    "engineering": 126,
+    "education": 151,
+    "research": 3
+  },
+  "tokensPerDomain": {
+    "english": 50992,
+    "indian_languages": 4012678,
+    "general_knowledge": 23053,
+    "mathematics": 438596,
+    "physics_chemistry": 297416,
+    "biology": 560687,
+    "computer_science": 505267,
+    "programming": 1044048,
+    "engineering": 52762,
+    "education": 658155,
+    "research": 543
+  },
+  "licenseDistribution": {
+    "CC0-1.0": 1275,
+    "MIT": 1807,
+    "CC-BY-4.0": 6,
+    "CC-BY-SA-3.0": 1490,
+    "Apache-2.0": 148
+  },
+  "leakageVerifiedZeroOverlap": true,
+  "storageBreakdown": {
+    "rawBytes": 37709752,
+    "processedBytes": 18228604,
+    "tokenizedBytes": 25766662,
+    "manifestsBytes": 61611,
+    "rejectedBytes": 7707,
+    "reportsBytes": 113315,
+    "totalCorpusBytes": 107689516
+  }
+}

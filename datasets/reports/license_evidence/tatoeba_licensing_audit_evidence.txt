@@ -1,0 +1,4 @@
+English archive (tatoeba_eng_cc0.tsv.bz2): Downloaded from explicit CC0 export (eng_sentences_CC0.tsv.bz2). Commercial training & redistribution permitted without attribution.
+Indic archives (tatoeba_{tel,hin,tam,kan,ben}.tsv.bz2): Downloaded from general per-language exports under CC-BY-2.0-FR.
+Audit Finding [QUARANTINED]: Raw TSV contains only 3 columns (ID \t lang \t text) and omits per-sentence contributor usernames / per-sentence CC0 tags.
+Without contributor usernames, strict CC-BY-2.0-FR attribution cannot be fulfilled from local archive files alone.

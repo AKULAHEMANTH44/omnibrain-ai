@@ -1,0 +1,4 @@
+Source: arXiv Atom API (https://export.arxiv.org/api/query) -> local files datasets/raw/arxiv_{math,phys_chem,bio,cs,eng}_cc0.xml
+Authoritative Policy: https://info.arxiv.org/help/api/tou.html
+Verified Content Scope: Only atom:title, atom:category, and atom:summary (abstract) were extracted. Full-text PDFs (author/arXiv license) were NOT downloaded or ingested.
+License Status: CC0-1.0 Public Domain Dedication applies to arXiv descriptive metadata and abstracts per arXiv Terms of Use.

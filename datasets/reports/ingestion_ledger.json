@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-11-19T17:35:28.580Z",
+  "totalRawTokensScanned": 8429271,
+  "exactDuplicatesRejected": 57,
+  "nearDuplicatesRejected": 188,
+  "corruptedRejected": 0,
+  "totalRejectedDocuments": 246,
+  "qualityBreakdown": {
+    "accepted": 5742,
+    "emptyOrInvalid": 0,
+    "corruptedEncoding": 0,
+    "tooShort": 0,
+    "tooLong": 0,
+    "exactDuplicate": 57,
+    "nearDuplicate": 188,
+    "excessiveRepetition": 1,
+    "lowInformation": 0
+  }
+}

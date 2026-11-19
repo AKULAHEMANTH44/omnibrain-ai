@@ -1,0 +1,3 @@
+Source: https://huggingface.co/datasets/wikimedia/wikipedia (20231101 snapshots for te, hi, ta, kn, bn)
+Verified Schema: {"domain", "language", "title", "text"} in raw .jsonl.gz archives.
+License: CC-BY-SA-3.0 (and GFDL). Commercial training is permitted; redistribution of adapted/derivative Wikipedia text requires CC-BY-SA-3.0 ShareAlike and Wikipedia contributor/article attribution.
